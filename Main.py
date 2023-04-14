@@ -32,3 +32,12 @@ for i in range(1001):
     for j in range(1001):
         if i + j == sumOfDigits and i * j == productOfDigits:
             print(f'Катя говорит, что загаданные числа: {i} и {j}')
+
+# Unit 3
+
+number = int(input('Введите число: '))
+i = 0
+
+while 2 ** i <= number:
+    print (2 ** i)
+    i += 1
